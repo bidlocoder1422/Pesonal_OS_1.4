@@ -3,7 +3,7 @@ from ftplib import FTP
 class sync:
     def try_to_connect(self):
         try:
-            self.ftp=FTP('files.000webhost.com', 'personalossite', '29101998')
+            self.ftp=FTP('files.000webhost.com', 'personalossite', 'pass')
             status="Successfully Connected"
         except Exception as e:
             status="Connetion Error"
